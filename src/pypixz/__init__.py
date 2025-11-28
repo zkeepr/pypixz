@@ -16,7 +16,8 @@ Basic usage:
 """
 
 __all__ = [
-    "install_package"
+    "install_package",
+    "install_requirements"
 ]
 
 from .__version__ import (
@@ -29,5 +30,5 @@ from .__version__ import (
     __copyright__
 )
 
-from .scripts.install import install_package
+from .scripts.install import install_package, install_requirements
 from .exceptions import *

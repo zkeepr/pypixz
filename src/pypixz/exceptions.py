@@ -16,3 +16,6 @@ class PackageError(BasePyPIxzException):
 
 class PackageInstallationError(PackageError):
     """Exception raised when a package cannot be installed"""
+
+class MissingRequirementsFileError(PackageError):
+    """Exception raised when a requirements file is missing"""
