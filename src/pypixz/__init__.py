@@ -7,7 +7,7 @@ maintaining guaranteed security.
 
 Basic usage:
     import pypixz
-    pypixz.install_module("pypixz", version_range='>=2.0')
+    pypixz.install_package("pypixz", version_range='>=2.0')
 
     pypixz.install_requirements("requirements.txt")
 
