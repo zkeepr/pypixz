@@ -21,6 +21,32 @@ def _build_requirement(package: str, version: Optional[str], version_range: Opti
 
 
 def install_package(package: str, version: Optional[str] = None, version_range: Optional[str] = None, logger: Optional[logging.Logger] = None) -> bool:
+    """Install a specified Python package with optional version,
+    version range, and logging.
+
+    This function allows for installing a Python package from PyPI, with the
+    option to specify a specific version, version range, or using the latest
+    available version. It supports logging for debugging purposes and handles
+    various error scenarios like dependency issues or installation failure.
+
+    :parm package: The name of the package to be installed.
+    :type package: str
+    :parm version: The specific version of the package to be installed.
+    Defaults to None.
+    :type version: Optional[str]
+    :parm version_range: A version range specifier if a specific range of
+    versions is needed.
+    :type version_range: Optional[str]
+    :parm logger: Choose the logger used
+    :type logger: Optional[logging.Logger]
+
+    :raises PackageInstallationError: If installation fails due to system
+    issues, dependency problems, or invalid version constraints.
+
+    :return: True if the package was installed successfully.
+    :rtype: bool
+    """
+
     if not logger:
         logger = logging
 
