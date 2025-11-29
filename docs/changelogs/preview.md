@@ -1,6 +1,6 @@
 # Preview Changelog
 
-## [2.0.0][] - 2025-11-29
+## 2.0.0 - 2025-11-29
 
 ### Build and Packaging Improvements
 
@@ -23,5 +23,3 @@
 - Authors changed by `ZKeepr`.
 - Change of copyright.
 - Change to the description of PyPixz.
-
-[2.0.0]: https://github.com/zkeepr/PyPIxz/compare/v1.2.0...v1.2.1
