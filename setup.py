@@ -10,7 +10,7 @@ setup(
     version=VERSION,
     author="ZKeepr - Organisation on GitHub",
     url="https://github.com/zkeepr/pypixz",
-    packages=["pypixz"],
+    packages=["pypixz", "pypixz.scripts"],
     package_data={"": ["LICENSE"]},
     package_dir={"": "src"},
     include_package_data=True,
