@@ -1,0 +1,39 @@
+[project]
+name = "pypixz"
+version = "2.0.0"
+requires-python = ">= 3.8"
+authors = [
+    {name = "ZKeepr - Organisation on GitHub"}
+]
+maintainers = [
+    {name = "KDuser12"}
+]
+description = "A solution for managing your Python dependencies"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+keywords = ["python", "package", "installer", "pypi", "pip", "manage", "dependencies"]
+classifiers = [
+    "Development Status :: 5 - Stable",
+
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+
+[project.urls]
+Homepage = "https://github.com/zkreep/pypixz"
+Repository = "https://github.com/zkreep/pypixz.git"
+Issues = "https://github.com/zkreep/pypixz/issues"
