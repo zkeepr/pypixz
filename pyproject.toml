@@ -16,7 +16,6 @@ keywords = ["python", "package", "installer", "pypi", "pip", "manage", "dependen
 classifiers = [
     "Development Status :: 5 - Stable",
 
-    "License :: OSI Approved :: MIT License",
     "Intended Audience :: Developers",
     "Topic :: Software Development :: Libraries",
 
