@@ -11,11 +11,9 @@ maintainers = [
 description = "A solution for managing your Python dependencies"
 readme = "README.md"
 license = "MIT"
-license-files = ["LICEN[CS]E.*"]
+license-files = ["LICENSE"]
 keywords = ["python", "package", "installer", "pypi", "pip", "manage", "dependencies"]
 classifiers = [
-    "Development Status :: 5 - Stable",
-
     "Intended Audience :: Developers",
     "Topic :: Software Development :: Libraries",
 
